@@ -1,3 +1,7 @@
 export function App() {
-  return <h1 className="">Estética</h1>;
+  return (
+    <div className="bg-gray w-full h-screen">
+      <h1 className="">Estética</h1>
+    </div>
+  );
 }
