@@ -13,7 +13,7 @@ export function App() {
       </nav>
       <section>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route index element={<Home />} />
         </Routes>
       </section>
       <main>
