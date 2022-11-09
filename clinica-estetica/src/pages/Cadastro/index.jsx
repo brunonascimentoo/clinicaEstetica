@@ -42,23 +42,23 @@ export function Cadastro() {
           <div>
             <table className="border-collapse m-0 p-0 w-full justify-between">
               <thead className="text-left font-bold">
-                <tr className="text-left border border-solid border-rose-300">
-                  <th className="pr-6">id</th>
-                  <th className="pr-6">produto</th>
-                  <th className="pr-6">quantidade</th>
-                  <th className="pr-6">custo</th>
-                  <th className="pr-6">venda</th>
-                  <th className="pr-6">tipo</th>
+                <tr className="text-left border-b border-solid border-rose-200">
+                  <th className="pr-1">id</th>
+                  <th >produto</th>
+                  <th >quantidade</th>
+                  <th >custo</th>
+                  <th >venda</th>
+                  <th >tipo</th>
                 </tr>
               </thead>
-              <tbody className="border border-solid border-gray-300">
-                <tr className="text-left p-2">
-                  <td>1</td>
-                  <td>ração</td>
-                  <td>20</td>
-                  <td>15.00</td>
-                  <td>30.00</td>
-                  <td>creme</td>
+              <tbody className="border-b border-solid border-rose-200">
+                <tr className="text-left ">
+                  <td className="py-2">1</td>
+                  <td className="py-2">ração</td>
+                  <td className="py-2">20</td>
+                  <td className="py-2">15.00</td>
+                  <td className="py-2">30.00</td>
+                  <td className="py-2">creme</td>
                 </tr>
               </tbody>
             </table>
