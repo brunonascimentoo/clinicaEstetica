@@ -13,7 +13,7 @@ export function Navbar() {
         </div>
         <div className="">
           <nav className="">
-            <ul className="min-[640px]:gap-12 gap-6 flex cursor-pointer text-md text-rose-400">
+            <ul className="min-[640px]:gap-12 gap-6 flex cursor-pointer text-md text-white font-bold">
               <Link to={"/cadastro"}>Cadastro</Link>
               <Link to={"/compras"}>Compras</Link>
               <Link to={"/vendas"}>Vendas</Link>
