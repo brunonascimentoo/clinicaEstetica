@@ -28,7 +28,7 @@ export function Compras() {
         </div>
         <div className="flex flex-wrap min-[540px]:justify-between">
           <label className="mt-2" htmlFor="quantidade">Data compra</label>
-          <input className="w-full min-[540px]:w-[400px] min-[540px]:ml-2 max-[540px]:mt-4 min-[820px]:w-[640px] min-[1024px]:w-[935px] outline-none border border-solid border-rose-200 rounded-sm" type="text" id="quantidade" name="quantidade" />
+          <input className="w-full min-[540px]:w-[400px] min-[540px]:ml-2 max-[540px]:mt-4 min-[820px]:w-[640px] min-[1024px]:w-[935px] outline-none border border-solid border-rose-200 rounded-sm pl-4" type="date" id="quantidade" name="quantidade" />
         </div>
         <div className="mt-4 flex flex-wrap min-[540px]:justify-between">
           <label className="mt-2" htmlFor="custo">Valor total</label>
