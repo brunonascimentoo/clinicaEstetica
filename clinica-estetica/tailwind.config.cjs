@@ -14,7 +14,7 @@ module.exports = {
       "6xl": 40,
       "8xl": 44,
       "10xl": 48,
-      "12xl": '4rem',
+      "12xl": '5rem',
     },
 
     colors: {
@@ -40,6 +40,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: "Poppins, sans serif",
+        vibe: "Great Vibes, sans serif"
       },
       backgroundImage: {
         woman: "url('./src/assets/images/woman.png')"
