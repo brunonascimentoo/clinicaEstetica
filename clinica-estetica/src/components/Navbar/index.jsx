@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom"
 import logo from '../../assets/images/logo.png'
+import { useContext } from "react";
+import { AuthContext } from "../../Contexts/Auth";
 
 export function Navbar() {
+  const { logout } = useContext(AuthContext);
+  const handleLogout = () => {
+    logout();
+  };
 
   return (
     <div className="py-4 w-full px-2 bg-rose-300">
@@ -17,6 +23,10 @@ export function Navbar() {
               <Link to={"/cadastro"}>Cadastro</Link>
               <Link to={"/compras"}>Compras</Link>
               <Link to={"/vendas"}>Vendas</Link>
+              <div id="btn">
+                <li><button onClick={handleLogout}>sair</button></li>
+
+              </div>
             </ul>
           </nav>
         </div>

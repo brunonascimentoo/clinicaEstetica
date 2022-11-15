@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from '../../components/Navbar'
 import woman from '../../assets/images/woman.png'
 
 export function Home() {
   return (
     <>
+      <Navbar />
       <div className="flex justify-center w-full h-[calc(100vh-139px)] min-[1024px]:h-[calc(100vh-112px)] bg-gray-50 overflow-hidden">
         <div className="flex flex-col justify-between min-[1024px]:flex-row min-[1024px]:items-center pt-[100px]">
           <div className="flex flex-col items-center justify-center text-md font-bold text-rose-400">

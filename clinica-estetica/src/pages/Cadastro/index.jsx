@@ -1,6 +1,9 @@
+import { Navbar } from '../../components/Navbar'
+
 export function Cadastro() {
   return (
     <>
+      <Navbar />
       <div className="p-4">
         <div className="w-full h-[55vh] min-[1016px]:h-[45vh] min-[1036px]:h-[40vh] min-[1052px]:h-[35vh]">
           <form className="flex flex-col" action="#">

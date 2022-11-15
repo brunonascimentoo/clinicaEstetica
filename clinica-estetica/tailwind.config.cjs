@@ -22,10 +22,10 @@ module.exports = {
       white: "#fff",
 
       gray: {
-        50: "#f1f5f9",
-        100: "#e2e8f0",
-        200: "#e1e1e1",
-        300: "rgb(148 163 184)",
+        50: "rgb(249 250 251)",
+        100: "rgb(243 244 246)",
+        200: "rgb(229 231 235)",
+        300: "rgb(209 213 219)",
       },
 
       rose: {
@@ -45,8 +45,9 @@ module.exports = {
       backgroundImage: {
         woman: "url('./src/assets/images/woman.png')"
       },
-      spacing: {
-        '90': '90vh'
+
+      boxShadow: {
+        'cardShadow': '0 4px 20px rgba(0, 0, 0, 0.25);'
       },
 
       screen: {
